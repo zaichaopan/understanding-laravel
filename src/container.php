@@ -6,7 +6,7 @@ class Container
 {
     protected $instances = [];
 
-    public $bindings = [];
+    protected $bindings = [];
 
     protected function isShared($abstract)
     {
